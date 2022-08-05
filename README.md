@@ -1,8 +1,3 @@
 # odin-recipes
 
-test
-test
-test
-test
-test
-test
+Building multiple web pages with lists, images and hyperlinks

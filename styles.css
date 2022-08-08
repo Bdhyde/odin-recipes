@@ -9,14 +9,39 @@ body {
 
 img {
     border: solid gray 4px;
-    margin: 30px;
+    margin: 25px;
 
 }
+
 
 p {
     margin: 25px;
     margin-left: 300px;
     margin-right: 300px;
+    font-size: 20px;
+}
+
+a:link {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+
+a:visited{
+    color: gray;
+}
+
+a:hover {
+    color: burlywood;
+}
+
+.swedish-chef {
+    background-image:url(images/swedish-chef-ft-blog0617.jpg);
+    height: 300px;
+    width: 600px;
+    border: 4px black solid;
+    background-size: cover;
+    margin-left: 400px;
 }
 
 
@@ -24,7 +49,9 @@ p {
         text-align: left;
         background-color: rgb(32, 37, 37);
         width: 630px;
-        height: 130px;
+        height: 140px;
+
+        line-height: 1.4;
 
         margin: 25px;
         margin-left: 400px;
@@ -32,9 +59,9 @@ p {
         border: 2px solid gray;
         padding-left: 20px;
         padding-bottom: 10px;
-        padding top: 15px
+        padding-top: 0px
+    
 
-        line-height: 1.5;
         }
 
 .rice-instructions {
@@ -42,6 +69,88 @@ p {
     background-color: rgb(32, 37, 37);
     width: 600px;
     height: 390px;
+    
+    margin: 30px;
+    margin-left: 400px;
+    margin-right: 400px;
+    border: 2px solid gray;
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+
+    line-height: 1.5;
+}
+
+.grilled-cheese-ingredients {
+    text-align: left;
+    background-color: rgb(32, 37, 37);
+    width: 600px;
+    height: 220px;
+    
+    margin: 30px;
+    margin-left: 400px;
+    margin-right: 400px;
+    border: 2px solid gray;
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+
+    line-height: 1.5;
+}
+
+
+.grilled-cheese-instructions {
+
+    text-align: left;
+    background-color: rgb(32, 37, 37);
+    width: 600px;
+    height: 420px;
+    
+    margin: 30px;
+    margin-left: 400px;
+    margin-right: 400px;
+    border: 2px solid gray;
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+
+    line-height: 1.5;
+}
+.lasagna, .grilled-cheese, .steamed-rice 
+{
+    background-color: black;
+    font-size: 30px;
+    border: solid gray 2px;
+    width: 300px;
+    height: 50px;
+    margin-left: 550px;
+    margin-top: 50px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.lasagna-ingredients {
+    text-align: left;
+    background-color: rgb(32, 37, 37);
+    width: 600px;
+    height: 550px;
+    
+    margin: 30px;
+    margin-left: 400px;
+    margin-right: 400px;
+    border: 2px solid gray;
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+
+    line-height: 1.5;
+}
+
+.lasagna-instructions {
+    text-align: left;
+    background-color: rgb(32, 37, 37);
+    width: 600px;
+    height: 680px;
     
     margin: 30px;
     margin-left: 400px;

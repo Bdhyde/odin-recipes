@@ -1,0 +1,55 @@
+body {
+    background-color: black;
+    background-image: url(../odin-recipes/images/denim.webp);
+    color: antiquewhite;
+    font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+    text-align: center;
+    list-style-position:inside;
+}
+
+img {
+    border: solid gray 4px;
+    margin: 30px;
+
+}
+
+p {
+    margin: 25px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+
+.rice-ingredients {
+        text-align: left;
+        background-color: rgb(32, 37, 37);
+        width: 630px;
+        height: 130px;
+
+        margin: 25px;
+        margin-left: 400px;
+        margin-right: 400px;
+        border: 2px solid gray;
+        padding-left: 20px;
+        padding-bottom: 10px;
+        padding top: 15px
+
+        line-height: 1.5;
+        }
+
+.rice-instructions {
+    text-align: left;
+    background-color: rgb(32, 37, 37);
+    width: 600px;
+    height: 390px;
+    
+    margin: 30px;
+    margin-left: 400px;
+    margin-right: 400px;
+    border: 2px solid gray;
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+
+    line-height: 1.5;
+}

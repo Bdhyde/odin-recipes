@@ -14,11 +14,14 @@ img {
 }
 
 
+
+
 p {
-    margin: 25px;
-    margin-left: 300px;
-    margin-right: 300px;
+
+    margin: auto;
+    width: 700px;
     font-size: 20px;
+    margin-bottom: 50px;
 }
 
 a:link {
@@ -41,7 +44,7 @@ a:hover {
     width: 600px;
     border: 4px black solid;
     background-size: cover;
-    margin-left: 400px;
+    margin: auto;
 }
 
 
@@ -53,9 +56,8 @@ a:hover {
 
         line-height: 1.4;
 
-        margin: 25px;
-        margin-left: 400px;
-        margin-right: 400px;
+     margin: auto;
+     margin-bottom: 50px;
         border: 2px solid gray;
         padding-left: 20px;
         padding-bottom: 10px;
@@ -68,17 +70,17 @@ a:hover {
     text-align: left;
     background-color: rgb(32, 37, 37);
     width: 600px;
-    height: 390px;
+    height: 450px;
     
-    margin: 30px;
-    margin-left: 400px;
-    margin-right: 400px;
+    margin: auto;
+    margin-bottom: 50px;
     border: 2px solid gray;
     padding-left: 20px;
     padding-right: 30px;
     padding-bottom: 10px;
+    padding-top: 0px;
 
-    line-height: 1.5;
+    line-height: 1.4;
 }
 
 .grilled-cheese-ingredients {
@@ -87,9 +89,8 @@ a:hover {
     width: 600px;
     height: 220px;
     
-    margin: 30px;
-    margin-left: 400px;
-    margin-right: 400px;
+    margin: auto;
+    margin-bottom: 50px;
     border: 2px solid gray;
     padding-left: 20px;
     padding-right: 30px;
@@ -104,11 +105,10 @@ a:hover {
     text-align: left;
     background-color: rgb(32, 37, 37);
     width: 600px;
-    height: 420px;
+    height: 520px;
     
-    margin: 30px;
-    margin-left: 400px;
-    margin-right: 400px;
+    margin: auto;
+    margin-bottom: 50px;
     border: 2px solid gray;
     padding-left: 20px;
     padding-right: 30px;
@@ -123,7 +123,7 @@ a:hover {
     border: solid gray 2px;
     width: 300px;
     height: 50px;
-    margin-left: 550px;
+    margin:auto;
     margin-top: 50px;
     text-align: center;
     padding-top: 10px;
@@ -133,11 +133,10 @@ a:hover {
     text-align: left;
     background-color: rgb(32, 37, 37);
     width: 600px;
-    height: 550px;
+    height: 610px;
     
-    margin: 30px;
-    margin-left: 400px;
-    margin-right: 400px;
+    margin: auto;
+    margin-bottom: 50px;
     border: 2px solid gray;
     padding-left: 20px;
     padding-right: 30px;
@@ -150,15 +149,18 @@ a:hover {
     text-align: left;
     background-color: rgb(32, 37, 37);
     width: 600px;
-    height: 680px;
+    height: 850px;
     
-    margin: 30px;
-    margin-left: 400px;
-    margin-right: 400px;
+    margin: auto;
+    margin-bottom: 50px;
     border: 2px solid gray;
     padding-left: 20px;
     padding-right: 30px;
     padding-bottom: 10px;
 
     line-height: 1.5;
+}
+
+.back-button {
+    
 }
